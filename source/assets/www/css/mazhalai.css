@@ -1,0 +1,58 @@
+.banner-title {
+height:50px;
+width:100%;
+background-color:#DFDFDF;
+text-align:center;
+}
+
+.banner-title a {
+color: blue;
+text-decoration:none;
+line-height: 50px;
+}
+
+.thumb-nails {
+   width: 50%;
+   float: left;
+   background-color: orange;
+   height: 150px;
+}
+.thumb-nails img {
+
+  width: 150px;
+  height: 150px;
+}
+
+.baby-stage-banner {
+   background-color: orange;
+   text-align: center;
+}
+
+.thiru-stage-banner {
+   margin-top: 15px;
+   text-align: center;
+}
+
+ul li img {
+  background-color: #A5A5A5;
+}
+
+.ui-header .ui-title {
+    margin: 0 1em;
+}
+
+.nav-icon {
+  margin: 0px;
+  padding: 0px;
+  width: 5em;
+  height: 5em;
+}
+
+.poem {
+  color: yellow;
+  font-style: italic;
+}
+
+.author {
+  color: purple;
+}

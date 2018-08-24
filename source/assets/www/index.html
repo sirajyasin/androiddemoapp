@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="viewport" content="user-scalable=yes, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height" />
+  <link rel="stylesheet" type="text/css" href="css/mazhalai-theme.min.css" />
+  <link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.4.5.min.css" />
+  <link rel="stylesheet" type="text/css" href="css/jquery.mobile.theme-1.4.5.css" />
+  <link rel="stylesheet" type="text/css" href="css/mazhalai.css" />
+  <title>மழலையின் மகத்துவம்</title>
+  <script>
+    /* Wait until device is ready to re-assign Back button */
+    document.addEventListener("deviceready", onDeviceReady, false);
+
+    function onDeviceReady() {
+      document.addEventListener('backbutton', backButtonCallback, false);
+    }
+
+    function backButtonCallback() {
+      navigator.app.exitApp();
+      return true;
+    }
+  </script>
+
+</head>
+
+<body>
+  <div data-role="page" id='page' data-theme="c">
+    <div data-role="header" data-theme="c" data-position="fixed">
+      <h1>மழலையின் மகத்துவம்</h1>
+    </div>
+    <div role="main" class="ui-content">
+      <ul data-role="listview">
+        <li>
+          <a href="kuzhanthai_paruvangal.html">
+            <img src="img/baby-stages-thumbnail.png" />
+            <h3>குழந்தைப் பருவங்கள் </h3>
+            <p>பிள்ளைத்தமிழும் குழந்தைப் பருவங்களும்</p>
+          </a>
+        </li>
+        <li>
+          <a href="thirukkural.html">
+            <img src="img/thiruvalluvar-thumbnail.png" />
+            <h3>வள்ளுவன் சொல்</h3>
+            <p>குறள் வழி அமுதம்</p>
+          </a>
+        </li>
+        <li>
+          <a href="kavithai.html">
+            <img src="img/barathiar-thumbnail.png" />
+            <h3>கவிதை சாரல்கள்</h3>
+            <p>கவிதை சாரல்கள்</p>
+          </a>
+        </li>
+        <li>
+          <a href="parents_edu.html">
+            <img src="img/parents-thumbnail.png" />
+            <h3>பெற்றோர் கல்வி</h3>
+            <p>பெற்றோர் கற்க வேண்டியது</p>
+          </a>
+        </li>
+        <li>
+          <a href="relations.html">
+            <img src="img/relations-thumbnail.png" />
+            <h3>உறவுமுறைப் பெயர்கள்</h3>
+            <p>உறவுமுறையின் பெயர்கள்</p>
+          </a>
+        </li>
+      </ul>
+
+    </div>
+    <div data-role="footer" data-theme="c" data-position="fixed">
+      <h1>மழலையின் மகத்துவம்</h1>
+    </div>   
+  </div>
+  <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+  <script type="text/javascript" src="js/jquery.mobile-1.4.5.min.js"></script>
+  <script type="text/javascript" src="cordova.js"></script>
+</body>
+
+</html>
